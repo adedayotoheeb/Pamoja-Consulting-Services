@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+:root{
+    --primary-secondary: #3672C0;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html body{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style-type: none;
+}
+h1,
+h2 {
+	font-weight: 500;
+	line-height: 1.2;
+}
+img{
+    width: 100%;
+}
+p{
+    line-height: 1.7;
+}
+.header-bar .container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    align-items: center;
+}
+.logo{
+    font-weight: bold;
+    color: white;
+    font-size: 1.5rem;
+}
+.header-bar ul{
+    display: flex;
+}
+.header-bar a{
+    margin-right: 50px;
+    padding-left: 10px;
+}
+.header-bar ul{
+    font-weight: semi-bold;
+}
+.header-bar a:hover{
+    border-bottom: 5px white solid;
+}
+nav{
+    background-color: var(--primary-secondary);
+    padding-top: 30px ;
+    height: 70px;
+}
+/* showcase */
+.showcase{
+    background-color: var(--primary-secondary);
+    color: white;
+    position: relative;
+    height: 500px;
+}
+.showcase .container{
+    padding-top: 70px;
+    margin: 0 75px;
+}
+.showcase img{
+    margin-right: 10px;
+    width: 40%;
+    position: absolute;
+    right: 75px;
+}
+.showcase-text p{
+    display: flex;
+    justify-content: start;
+}
+body > section > div > div.showcase-text > a{
+   margin-top: 10pxx;
+}
+
+/* Utilities */
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+}
+h2{
+    font-weight: bold;
+    font-size: 110px;
+}
+h1{
+    font-weight: bold;
+    font-size: 150px;
+}
